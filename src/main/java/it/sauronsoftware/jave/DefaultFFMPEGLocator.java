@@ -92,7 +92,7 @@ public class DefaultFFMPEGLocator extends FFMPEGLocator {
 		this.path = exe.getAbsolutePath();
 	}
 
-	protected String getFFMPEGExecutablePath() {
+	public String getFFMPEGExecutablePath() {
 		return path;
 	}
 
